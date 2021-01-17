@@ -217,23 +217,13 @@ else:
     os.mkdir(output_dir)
 
 
+with open(url_list_file,"r") as f:
 
-
-if ".json" in url_list_file:
-
-    with open(url_list_file,"r") as f:
-        json_data = json.load(f)
-        for key,val in json_data:
-            url_list.append(val)
-else:
-    with open(url_list_file,"r") as f:
-
+    line = f.readline()
+    
+    while(len(line) > 0):
+        url_list.append(str(line))
         line = f.readline()
-        
-        while(len(line) > 0):
-            url_list.append(str(line))
-            line = f.readline()
-
 
 
 
