@@ -455,7 +455,7 @@ while iu_1 < len(url_list) and iu_2 < len(url_list):
         thread.join()
     
     
-    time.sleep(1)
+    time.sleep(2.5)
 
 
 

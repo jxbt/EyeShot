@@ -7,7 +7,7 @@ then
     apt-get update
 
     apt-get install firefox
-    pip3 install selenium
+    pip3 install selenium beautifulsoup4
 
     wsinstall_Path="/usr/bin/eyeshot"
     firefox_binPath=$(which firefox)
@@ -16,7 +16,7 @@ then
     sed -i 's|binPath|'$firefox_binPath'|g' $wsinstall_Path
     chmod +x $wsinstall_Path
 
-    printf "\n\n\ninstallation Done! \n"
+    printf "\n\n\ninstallation Done.\n"
 
 else
 
