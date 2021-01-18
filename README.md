@@ -56,7 +56,7 @@ eyeshot -h
 
 # Installation
 
-#### run the following command to install eyeshot along with all dependencies and requirements.
+#### run the following command to install eyeshot along with all dependencies and requirements except geckodriver that you have to install manually.
 
 ```
 chmod +x install.sh; sudo ./install.sh
