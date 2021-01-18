@@ -62,7 +62,7 @@ eyeshot -h
 chmod +x install.sh; sudo ./install.sh
 ```
 
-# Notes: 
+# Notes 
 
 * before installation make sure that you have the latest version of geckodriver.
 * you can't use both --cc &  --dc options at the same time.
