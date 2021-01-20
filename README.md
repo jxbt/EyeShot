@@ -8,6 +8,7 @@ EyeShot is a tool written in python3 designed to take screenshots for a list of 
 * the ability to collect info about the websites that you want to screenshot.
 * decide which websites that you want screenshot or collect info about based in response status code.
 * decide which websites that you do not want screenshot or collect info about based in response status code.
+* handle common errors/failures : 3 connection retries per each url and the ability to control the request timeout or the page loading timeout.
 
 
 
