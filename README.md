@@ -8,7 +8,7 @@ EyeShot is a tool written in python3 designed to take screenshots for a list of 
 * the ability to collect info about the websites that you want to screenshot.
 * decide which websites that you want screenshot or collect info about based in response status code.
 * decide which websites that you do not want screenshot or collect info about based in response status code.
-* handle common errors/failures : perform connection retries with the ability to control the request timeout or the page loading timeout.
+* handle common errors/failures: perform connection retries with the ability to control the request timeout or the page loading timeout.
 
 
 
@@ -55,6 +55,7 @@ eyeshot -h
 
 
 
+
 # Installation
 
 #### run the following command to install eyeshot along with all dependencies and requirements except geckodriver that you have to install manually.
@@ -62,6 +63,7 @@ eyeshot -h
 ```
 chmod +x install.sh; sudo ./install.sh
 ```
+
 
 
 # Notes 
