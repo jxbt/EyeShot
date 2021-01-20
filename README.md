@@ -63,6 +63,7 @@ eyeshot -h
 chmod +x install.sh; sudo ./install.sh
 ```
 
+
 # Notes 
 
 * before installation make sure that you have the latest version of geckodriver.
