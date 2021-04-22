@@ -55,7 +55,6 @@ eyeshot -h
 
 
 
-
 # Installation
 
 #### run the following command to install eyeshot along with all dependencies and requirements except geckodriver that you have to install manually.
